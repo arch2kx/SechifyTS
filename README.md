@@ -3,6 +3,10 @@ A Chrome/Firefox Extension that makes every YouTube thumbnail have artwork from 
 
 I decided it was a fun (but hellish) idea to go about rewriting it in TypeScript for the fun of it. (I'm still noob coder tho :P)
 
+New Changes:
+- Update YouTube thumbnail getting and stuff
+- Added more characters cuz why not
+
 Anyways, the original idea was from chikenuwu which was from MrBeastify and Jambofy respectively.
 I got some guidance from the codebase and how it's structured by generally figuring out chiken's comments (thanks).
 
