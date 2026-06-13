@@ -1,13 +1,16 @@
 # Sechify
-A chrome extension that makes every thumbnail on youtube have art from the artist BlueSechi
+A Chrome/Firefox Extension that makes every YouTube thumbnail have artwork from the artist BlueSechi.
 
-I got this idea from MrBeastify and Jambofy
-A lot of guidance and just generally how to approach certain tasks was given by looking at the code from those 2 extensions.
+I decided it was a fun (but hellish) idea to go about rewriting it in TypeScript for the fun of it. (I'm still noob coder tho :P)
 
+Anyways, the original idea was from chikenuwu which was from MrBeastify and Jambofy respectively.
+I got some guidance from the codebase and how it's structured by generally figuring out chiken's comments (thanks).
+
+Sechify (Original): https://github.com/chikenuwu/Sechify 
 Jambofy: https://github.com/LiamHarrison25/Jambofy-Extension
+MrBeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
-Mrbeastify: https://github.com/MagicJinn/MrBeastify-Youtube
+Feel free to modify or improve the extension if you want, comments are still there if you're willing to fork it I guess.
 
-Feel free to modify my extension to make whatever you like. I put a lot of comments to explain the entire thing :) (just credit me or smth lmao)
-
-Support me on kofi if you want and can: https://ko-fi.com/chikenuwu
+Original Sechify by chikenuwu.
+Forked by arch2kx.
