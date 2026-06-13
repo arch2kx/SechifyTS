@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overlay Toggle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Since having separate CSS messes up the styling I have to keep it that way... -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Mozilla Text", sans-serif;
             width: 220px;
             padding: 20px;
             display: flex;
+            font-weight: 400;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: #f1f1f1;
         }
         button {
+            font-family: "Noto Sans", sans-serif;
             padding: 10px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #4CAF50;
+            background-color: #2fbe80;
             color: white;
             border: none;
             border-radius: 5px;
             margin-bottom: 20px;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #299f8f;
         }
         .footer {
             display: flex;
@@ -38,12 +45,21 @@
         .profile {
             display: flex;
             align-items: center;
+            font-size: 15px;
         }
         .profile img {
             width: 50px;
             height: 50px;
             margin-right: 5px;
         }
+
+        .bottom-text {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+        }
+
         .icons{
             margin-top: 10px;
         }
@@ -55,6 +71,13 @@
             height: 40px;
         }
 
+        .logo-banner {
+            width: 200px;
+            height: auto;
+            padding-bottom: 15px;
+            object-fit: cover;
+        }
+
         header {
             font-size: 36px; /* Makes the text larger */
             font-weight: bold; /* Makes the text bold */
@@ -63,33 +86,28 @@
     </style>
 </head>
 <body>
-    <header>Sechify</header>
+    <script src="popup.js"></script>
+    <img src="assets/popup/sechify-ts.png" class="logo-banner">
     <button id="toggle-overlay">Disable Overlays</button>
 
     <div class="footer">
         <div class="profile">
-            <img src="assets/popup/profile.jpeg" alt="Profile Picture">
-            <span>Created by chikenuwu</span>
+            <img src="assets/popup/arch2kx-pfp.png" alt="Arch Profile Picture">
+            <span>Fork by arch2kx</span>
+            <span>Original by chikenuwu</span>
         </div>
     </div>
     <div class="icons">
-        
-        <a href="https://ko-fi.com/chikenuwu" target="_blank">
-            <img src="assets/popup/kofi.webp" alt="Ko-fi">
+        <a href="https://github.com/arch2kx/Yet-Another-Sechify-Fork" target="_blank">
+            <img src="assets/popup/github.png" alt="Github">
         </a>
-        <a href="https://www.youtube.com/@chikenuwu" target="_blank">
+        <a href="https://www.youtube.com/@aarchie64" target="_blank">
             <img src="assets/popup/youtube.png" alt="YouTube">
         </a>
-        <a href="https://x.com/Chikenqwq" target="_blank">
-            <img src="assets/popup/twitter.png" alt="Twitter">
-        </a>
-        <a href="https://github.com/IsaacSohn/Sechify" target="_blank">
-            <img src="assets/popup/github.png" alt="Github">
+        <a href="https://discord.com/users/817571382069559296" target="_blank">
+            <img src="assets/popup/discord.png" alt="Discord">
         </a>
     </div>
     <footer>v1.31</footer>
-    <a style="color:#f1f1f1;" href="https://drive.google.com/file/d/13iFHjd6A6Y4eyyKoBvs4tCDH_8y_iQBK/view?usp=sharing" target="_blank">hello mods</a>
-
-    <script src="popup.js"></script>
 </body>
 </html>
