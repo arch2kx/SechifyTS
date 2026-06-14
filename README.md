@@ -10,12 +10,20 @@ New Changes:
 Anyways, the original idea was from chikenuwu which was from MrBeastify and Jambofy respectively.
 I got some guidance from the codebase and how it's structured by generally figuring out chiken's comments (thanks).
 
-Sechify (Original): https://github.com/chikenuwu/Sechify 
+Sechify (Original): https://github.com/chikenuwu/Sechify
 
 Jambofy: https://github.com/LiamHarrison25/Jambofy-Extension
 
 MrBeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
+How to setup:
+Assuming Chrome/Firefox doesn't approve me, here are the steps to get the extension as a zip.
+- Download the `SechifyTS.zip` from here.
+- Go to `about:addons` on Firefox/Firefox-based, `chrome://extensions` on Chrome/Chrome-based.
+- Drag the .zip file to the extensions place.
+
+How to develop:
+- Fork this repository and clone as needed.
 
 Feel free to modify or improve the extension if you want, comments are still there if you're willing to fork it I guess.
 
