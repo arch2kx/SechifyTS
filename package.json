@@ -5,7 +5,11 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:manifest": "node scripts/build-manifest.js",
+    "build": "npm run build:manifest && tsc",
+    "zip": "cd dist && zip -r ../SechifyTS.zip . -x \".*\" && cd ..",
+    "package": "npm run build && npm run zip"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +18,7 @@
     "@types/chrome": "^0.1.43",
     "@types/firefox-webext-browser": "^143.0.0",
     "esbuild": "^0.28.1",
+    "strip-json-comments": "^5.0.3",
     "typescript": "^6.0.3"
   }
 }
