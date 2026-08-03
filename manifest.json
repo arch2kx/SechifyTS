@@ -1,5 +1,5 @@
 {
-  // This is pretty much the base stuff
+  "_comment": "This is pretty much the base stuff",
   "manifest_version": 3,
   "name": "Sechify TypeScript",
   "version": "1.31",
@@ -13,7 +13,7 @@
   ],
 
 
-  // When it sees you on youtube.com (and its finished loading from document_idle), it'll run main.js
+  "_comment1": "When it sees you on youtube.com (and its finished loading from document_idle), it'll run main.js",
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
@@ -22,7 +22,7 @@
     }
   ],
 
-  // Lets websites access these within the extension. In this case, ANY(matches) can access ANY(*) file in images that is a .png
+  "_comment2": "Lets websites access these within the extension. In this case, ANY(matches) can access ANY(*) file in images that is a .png",
   "web_accessible_resources": [
     {
       "resources": [
@@ -35,12 +35,12 @@
     }
   ],
 
-  // This is the button on the browser toolbar
+  "_comment3": "This is the button on the browser toolbar",
   "action": {
     "default_popup": "popup.html"
   },
 
-  // Firefox Stuff yay woohoo thanks Mozilla
+  "_comment4": "Firefox Stuff yay woohoo thanks Mozilla",
   "browser_specific_settings": {
   "gecko": {
     "id": "sechify-ts@arch2kx.pages.dev",
