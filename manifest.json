@@ -2,7 +2,7 @@
   "_comment": "This is pretty much the base stuff",
   "manifest_version": 3,
   "name": "Sechify TypeScript",
-  "version": "1.31",
+  "version": "1.34",
   "icons": {
     "128": "assets/icon/icon-128.png"
   },
