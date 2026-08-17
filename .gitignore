@@ -1,2 +1,7 @@
-.DS_Store
+# web-ext
+web-ext-artifacts/
 *.zip
+*.xpi
+.web-extension-id
+
+.DS_Store
