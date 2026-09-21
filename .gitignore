@@ -1,7 +1,18 @@
-# web-ext
-web-ext-artifacts/
+# Dependencies
+node_modules/
+
+# TypeScript Build Artifacts
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Web Extension / System Clutter
 *.zip
 *.xpi
+.web-ext/
+web-ext-artifacts/
 .web-extension-id
-
 .DS_Store
+Thumbs.db
+```
